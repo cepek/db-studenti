@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/text">
+        <file>gpl-3.0.txt</file>
+        <file>gpl-3.0-standalone.html</file>
+    </qresource>
+</RCC>
