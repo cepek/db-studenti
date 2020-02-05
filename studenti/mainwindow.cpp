@@ -76,7 +76,7 @@ void MainWindow::connectDB()
 {
     QSqlDatabase db {};
     // podmineny preklad pro databaze postgresql nebo sqlite3
-#if 1
+#if 0
     { // ssh tunel: (auto)ssh -L 65432:localhost:5432 geo102.fsv.cvut.cz
       //                      -o ServerAliveInterval=60
       // pripojeni: psql -h localhost -p 65432 -U cepek cepek_studenti
